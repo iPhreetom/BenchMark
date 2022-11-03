@@ -9,6 +9,10 @@ import SwiftUI
 
 @main
 struct BenchMarkApp: App {
+    init() {
+        print("here")
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
